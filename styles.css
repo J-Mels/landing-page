@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.main-box {
+    width: 750px;
+    background-color: #1f2937;
+    justify-content: center;
+}
+
+.header {
+    color: #f9faf8;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: 16px;
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+    row-gap: 20px;
+}
+
+.header-links {
+    font-size: 10px;
+}
+
+.menu > li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.menu > li:last-of-type {
+    margin-right: 0px;
+}
+
